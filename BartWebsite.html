@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { background-image: url(https://wallpapercave.com/wp/5KiXFNt.jpg);
+        background-size: contain;
+        background-repeat: repeat;
+        height: 1920px;
+        color: wheat;
+        }     
+        h1 {text-align: center;}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1><u>My Personal Website</u></h1>
+
+    <form action="new_user.php" method="post">
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+        </p>
+
+        <p>
+            <label for="email">E-mail@:</label>
+            <input type="email" id="email">
+        </p>
+    
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </p>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Send</button>
+
+    
+    <ul>
+        <li><a href="#aboutme"><u>About me</u></a></li>
+        <li><a href="#projects"><u>Projects</u></a></li>
+        <li><a href="#rules"><u>Rules</u></a></li>
+        <li><a href="#contact"><u>Contact</u></a></li>
+
+    </ul>
+    
+    <h3 id="aboutme"><u>About me</u></h3>
+    <p>Hi,<br>
+        My name is Bartosz and this is my first website that i'm trying to design with everything i'm learning so far form
+        Udemy Academy Fullstack Developer Course.
+        It might not be "good" or perfect, but lets give it some time!
+    </p>
+
+    <h3 id="projects"><u>Projects</u></h3>
+    <p>
+        I want my first project to contain multiple things that im interested in and passionate about.
+        First one will be related to Zelda game and its unique universe and tools, I believe i can try and make a tutorial here or notes for myself
+        in case i get lost in the game or forget something important regarding the mechanics.
+        <br>
+        Second project will be gym-fitness oriented, it will contain valuable information about exercises, nutrition and psychology.
+        <br>
+        Third and future projects will be planned as well, but for now I will focus only on those mentioned above!
+    </p>
+
+    <h3 id="rules"><u>Rules</u></h3>
+    <p>
+        There are no rules. Yet....
+    </p>
+
+    <h3 id="contact"><u>Contact</u></h3>
+
+    <p>
+        <h4>pertax@gmail.com</h4>
+        <h4>Discord:Bart8947</h4>
+    </p>
+    <br>
+
+    <h1>Registration Panel:</h1>
+
+    <h3><u>Which project would you like to select?:</u></h3>
+    <div>
+        <p>
+            <input type="radio" name="user-type" id="project1">
+            <label for="project1">Project 1</label>
+        </p>
+        <p>
+            <input type="radio" name="user-type" id="project2">
+            <label for="project2">Project 2</label>
+        </p>  
+        <p>
+            <input type="radio" name="user-type" id="others">
+            <label for="others"">Others</label>
+        </p>
+    
+    <form action="new_user.php" method="post">
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+        </p>
+        <p>
+            <label for="email">E-mail@:</label>
+            <input type="email" id="email">
+        </p>
+            <label for="born-date">Date of birth:</label>
+            <input type="datetime-local" name="datetime-local" id="borndate">
+        </p> 
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </p>
+        <p>
+            <label for="phone">Phone number:</label>
+            <input type="phone" id="phone">
+        </p>
+
+
+    <footer>
+        &copy;bartoszkocot.com
+    </footer>
+</body>
+</html>
